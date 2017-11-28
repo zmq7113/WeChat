@@ -1,0 +1,27 @@
+/* pages/admin_menu/admin_menu.wxss */
+view{
+  width:100%;
+  flex-direction:row;
+  display:flex;
+}
+.block{
+    border-bottom: 1px solid #ccc;
+    width:50%;
+    text-align: center;
+    font-size: 37rpx;
+    height: 300rpx;
+  line-height: 400rpx;
+  position: relative;
+}
+navigator:nth-child(odd) {
+  border-right:1px solid #CCC;
+}
+.cate-content .cate-block{
+  border-bottom:1px solid #CCC;
+}  
+.img{
+  width: 60rpx;
+  position: absolute;
+  left: 168rpx;
+  top: 70rpx;  
+}
